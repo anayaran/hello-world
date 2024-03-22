@@ -12,7 +12,7 @@ phases:
       - echo Build completed
 artifacts:
   files:
-    - ./github.com/anayaran/hello-world/webapp/target/webapp.war
+    - ./webapp/target/webapp.war
     - scripts/*.sh
     - appspec.yml
   discard-paths: yes
