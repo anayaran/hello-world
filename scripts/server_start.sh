@@ -6,3 +6,4 @@ sudo tar -xvf apache-tomcat-9*.tar.gz
 sudo mv apache-tomcat-9.0.87 /usr/local/tomcat
 sudo sh /usr/local/tomcat/bin/shutdown.sh
 sudo sh /usr/local/tomcat/bin/startup.sh
+sudo mv /home/ec2-user/server/webapp.war /usr/local/tomcat/webapps
